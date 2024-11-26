@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 18,
+    "height" : 26
+  }, {
+    "width" : 36,
+    "height" : 51
+  }, {
+    "width" : 72,
+    "height" : 101
+  }, {
+    "width" : 143,
+    "height" : 201
+  }, {
+    "width" : 285,
+    "height" : 401
+  }, {
+    "width" : 569,
+    "height" : 801
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 569,
+  "@id" : "https://onb1439.github.io/Test/images/11748A24-preview",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 801
+}
