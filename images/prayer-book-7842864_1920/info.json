@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 40,
+    "height" : 60
+  }, {
+    "width" : 80,
+    "height" : 120
+  }, {
+    "width" : 160,
+    "height" : 240
+  }, {
+    "width" : 320,
+    "height" : 480
+  }, {
+    "width" : 640,
+    "height" : 960
+  }, {
+    "width" : 1280,
+    "height" : 1920
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1280,
+  "@id" : "https://onb1439.github.io/Test/images/prayer-book-7842864_1920",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1920
+}
