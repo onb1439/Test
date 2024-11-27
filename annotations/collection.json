@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://onb1439.github.io/Test/annotations/775dc19a753c434ef3b136e754aa9864.json" ],
+  "@id" : "https://onb1439.github.io/Test/annotations/collection.json",
+  "label" : "All annotations loaded in onb1439/Test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
