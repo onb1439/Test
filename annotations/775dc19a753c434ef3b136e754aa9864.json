@@ -1,0 +1,150 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "face",
+      "@type" : "oa:Tag",
+      "chars" : "face"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "nose",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>nose</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/189722742",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-11-27T13:32:39",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732714359409",
+    "dcterms:modified" : "2024-11-27T13:32:39",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://onb1439.github.io/Test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=238,261,29,70"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M237.95455,260.7004h14.63636v0h14.63636v35.09091v35.09091h-14.63636h-14.63636v-35.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2f20ba67-bb5c-4864-b52e-a0dd7d8cc5b9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "clothing",
+      "@type" : "oa:Tag",
+      "chars" : "clothing"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "buttons",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>buttons</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/189722742",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-11-27T13:31:43",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732714303590",
+    "dcterms:modified" : "2024-11-27T13:31:43",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://onb1439.github.io/Test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=218,468,48,83"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M217.96931,468.15217h24.04668v0h24.04668v41.45972v41.45972h-24.04668h-24.04668v-41.45972z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_46e8745c-55a4-4d7e-88e9-840740ebb3d5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "clothing",
+      "@type" : "oa:Tag",
+      "chars" : "clothing"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Collar",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Collar</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/189722742",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-11-27T13:32:19",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732714339277",
+    "dcterms:modified" : "2024-11-27T13:32:19",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://onb1439.github.io/Test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=179,367,251,122"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M227.13939,368.7468l23.55882,24.58312l73.74936,-23.55882l105.50256,65.55499l-94.23529,45.06905l-63.50639,8.19437l-93.211,-29.7046l36.87468,-43.02046l7.17008,-48.14194h4.09719l-3.07289,-1.0243v0h5.12148z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"rough_path_1a8b261e-70f7-4d55-bfe1-f931364b0236\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "eyes",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>eyes</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/189722742",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-11-27T13:32:46",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1732714366355",
+    "dcterms:modified" : "2024-11-27T13:32:46",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://onb1439.github.io/Test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=207,254,120,41"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M224.38456,260.13369c11.05765,-3.43603 26.65625,-5.99473 42.33045,-5.99167v0v0c15.67419,0.00306 29.32905,2.39668 42.33045,5.99167c13.0014,3.59499 18.05488,9.07307 17.53385,14.46517c-0.52103,5.3921 -6.61658,10.69822 -17.53385,14.46517c-10.91727,3.76695 -26.65625,5.99473 -42.33045,5.99167c-15.67419,-0.00306 -31.2836,-2.23695 -42.33045,-5.99167c-11.04685,-3.75472 -17.53115,-9.03027 -17.53385,-14.46517c-0.0027,-5.4349 6.4762,-11.02914 17.53385,-14.46517z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_4487c201-f5c9-4c1e-aa87-b192ad0850b5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699"
+    } ]
+  } ],
+  "@id" : "https://onb1439.github.io/Test/annotations/775dc19a753c434ef3b136e754aa9864.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
