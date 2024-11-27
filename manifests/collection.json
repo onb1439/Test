@@ -1,0 +1,13 @@
+{
+  "id" : "https://onb1439.github.io/Test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in onb1439/Test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://onb1439.github.io/Test/manifests/manifest2.json",
+    "label" : "This is Maxi's fantastic manifest"
+  } ]
+}
