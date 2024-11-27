@@ -1,0 +1,94 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://onb1439.github.io/Test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "This is Maxi's fantastic manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is a collection of photos.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Copyright ÖNB for Portrait",
+  "sequences" : [ {
+    "@id" : "http://bf47c2ce-bb68-4aeb-bbde-68dda0b79a35",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699",
+      "@type" : "sc:Canvas",
+      "label" : "Portrait",
+      "height" : 801,
+      "width" : 569,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4f264990-5c90-40a7-8488-4e2017682de7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fonb1439%2FTest%2F11748A24-preview/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fonb1439%2FTest%2F11748A24-preview",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 801,
+          "width" : 569
+        },
+        "on" : "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3b5ea2d0-5205-4ff7-8bb2-38beddfe8c87",
+      "@type" : "sc:Canvas",
+      "label" : "Book",
+      "height" : 1920,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5979e400-0672-45e9-a055-f2b7bf1ef7b0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fonb1439%2FTest%2Fprayer-book-7842864_1920/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fonb1439%2FTest%2Fprayer-book-7842864_1920",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1920,
+          "width" : 1280
+        },
+        "on" : "http://3b5ea2d0-5205-4ff7-8bb2-38beddfe8c87"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://758fd1c4-e97d-4ae9-b20a-6ba168a19699" ]
+  } ]
+}
